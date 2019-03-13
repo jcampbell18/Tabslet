@@ -3,38 +3,64 @@
 <head>
 
 <!-- Page Title -->
-    <title>Web 2 Starter</title>
+    <title>Tabslet</title>
 
 <!-- Metadata -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
 <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicons/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png"/>
+    <link rel="manifest" href="/img/favicons/site.webmanifest"/>
+    <meta name="msapplication-TileColor" content="#2b5797"/>
+    <meta name="theme-color" content="#ffffff"/>
 
 <!-- Normalize CSS via CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
 <!-- Required Plugin Stylesheets -->    
-    
+    <link rel="stylesheet" href="css/tabslet.css"/>
 <!-- My Awesome Styling -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"/>
 
 </head>
 
 <body>
     
-    <h1>Web 2 Starter</h1>
+    <h1>Tabslet plugin</h1>
+
+    <div class="tabs">
+        <ul>
+            <li>
+                <a href="#tab-1">Tab 1</a>
+            </li>
+            <li>
+                <a href="#tab-2">Tab 2</a>
+            </li>
+            <li>
+                <a href="#tab-3">Tab 3</a>
+            </li>
+        </ul>
+        <div id="tab-1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia illum quae nulla debitis aliquam molestiae repellendus cumque. </p>
+            <p>Ducimus voluptatibus, officia, reprehenderit, nisi maxime velit quibusdam quo architecto vero natus esse.</p>
+        </div>
+        <div id="tab-2">
+            <img src="http://lorempixel.com/300/300" alt="LoremPixel"/>
+        </div>
+        <div id="tab-3">
+            <p>Lorem ipsum</p>
+            <p>Dolor lorem</p>
+            <p>Ipsum dolor</p>
+        </div>
+    </div>
 
     <!-- jQuery Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Plugins(s) -->
-    
+    <script src="js/jquery.tabslet.min.js"></script>
     <!-- My Scripts -->
     <script src="js/scripts.js"></script>
 </body>
